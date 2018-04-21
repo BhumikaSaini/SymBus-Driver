@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/route1"
+    android:padding="10dp"
+    tools:context="com.app.symbusdriver.ChooseSDActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerVertical="true"
+        >
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:text="From SB Road To SIT"
+            android:id="@+id/BSBtoSIT"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:text="From SIT To SB Road"
+            android:id="@+id/BSITtoSB"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:text="LOGOUT"
+            android:id="@+id/BChooseLogout"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
