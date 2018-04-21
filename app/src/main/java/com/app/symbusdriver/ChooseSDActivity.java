@@ -35,7 +35,7 @@ public class ChooseSDActivity extends AppCompatActivity {
         BSITtoSB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                strDest="SBRoad";
+                strDest="SB Road";
                 Intent i=new Intent(ChooseSDActivity.this,MapsActivity.class);
                 i.putExtra("busNo", busNo);
                 i.putExtra("destn", strDest);
