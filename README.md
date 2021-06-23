@@ -1,4 +1,4 @@
-# SymBus
+# SymBus (Driver App)
 
 A simple bus-tracker android app to help be always onboard!
 
