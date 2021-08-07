@@ -6,7 +6,7 @@ Demo video available <a href="https://drive.google.com/file/d/1BiNHV55i71eUd1dPj
 
 Feel free to star/fork/contribute via pull requests!
 
-NOTE: This is the repo for the driver app. Passenger app repo is available <a href="https://github.com/BhumikaSaini/SymBus-App">here</a>.
+NOTE: This is the repo for the driver app. Passenger app repo is available <a href="https://github.com/BhumikaSaini/SymBus">here</a>.
 
 __________________________
 
